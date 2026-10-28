@@ -1,0 +1,23 @@
+# Raw TfL source files are downloaded separately.
+data/raw/*
+
+# Keep documentation explaining how to obtain the source data.
+!data/raw/README.md
+
+# Generated processed datasets.
+data/processed/*.parquet
+
+# Jupyter temporary files.
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache.
+__pycache__/
+*.pyc
+
+# macOS files.
+.DS_Store
+
+# Environment files / secrets.
+.env
+*.env
